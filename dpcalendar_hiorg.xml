@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension version="3.0" type="plugin" group="dpcalendar" method="upgrade">
+	<name>DPCalendar - HiOrg</name>
+	<author>HiOrg-Server GmbH</author>
+	<creationDate>March 2015</creationDate>
+	<copyright>(C) 2012 Digital Peak. All rights reserved.
+	</copyright>
+	<license>http://www.gnu.org/copyleft/gpl.html
+		GNU/GPL
+	</license>
+	<authorEmail>info@joomla.digital-peak.com</authorEmail>
+	<authorUrl>joomla.digital-peak.com</authorUrl>
+	<version>2.2.1</version>
+	<description>Plugin für den DPCalendar um Termin-Daten aus dem HiOrg-Server zu importieren</description>
+	<scriptfile>init_script.php</scriptfile>
+	<files>
+		
+		<filename plugin="dpcalendar_hiorg">dpcalendar_hiorg.php</filename>
+		<filename>index.html</filename>
+		<filename>init_script.php</filename>
+		<folder>language</folder>
+	</files>
+	<config>
+		<fields name="params" addfieldpath="/administrator/components/com_dpcalendar/models/fields">
+			<fieldset name="calendars" label="Einstellungen">
+				<field name="spacer-1" type="spacer" default="" label="HiOrg-Server Kalender"
+					description="HiOrg-Server Kalender" />
+				<field name="title-1" type="text" label="Titel des Kalenders"
+					description="Geben Sie hier den Namen des Kalenders ein, in den Sie automatisch Termine importieren wollen." size="70" class="inputbox"
+					default="HiOrg" />
+				<field name="ov-1" type="text"
+					label="OV:" description="Geben Sie Ihr Organisations-Kürzel ein."
+					size="5" class="inputbox" default="xxx" />
+				<field name="description-1" type="text" label="Beschreibung"
+					description="Beschreibung des Kalenders" size="70" class="inputbox"
+					default="" />
+				<field name="color-1" type="color" label="Farbe"
+					description="Farbe des Kalenders" size="6" class="inputbox"
+					default="A32929" />
+
+			</fieldset>
+			<fieldset name="advanced" label="Technische Einstellungen">
+                                <field name="spacer-1" type="spacer" default="" label="Achtung! Nehmen Sie nur Änderungen an diesen Einstellugen vor, wenn Sie wissen was Sie tun."
+					description="" />
+				<field name="integration" type="list" default="0"
+					label="Synchronisierungsart" description="Stellen Sie ein, wie die Synchronisierung ablaufen soll.">
+					<option value="0">Beides</option>
+					<option value="1">Nur Importieren
+					</option>
+					<option value="2">Nur Anzeigen
+					</option>
+				</field>
+				<field name="cache" type="list" default="0"
+					label="Zwischenspeichern" description="">
+					<option value="2">Globale Einstellung übernehmen</option>
+					<option value="1">Immer
+					</option>
+					<option value="0">Nie
+					</option>
+				</field>
+				<field name="cache_time" type="text" default="900"
+					label="Cache-Ablaufzeit" description="Geben Sie hier die Zeit ein, in der der Cache ablaufen soll." />
+			</fieldset>
+		</fields>
+	</config>
+</extension>
