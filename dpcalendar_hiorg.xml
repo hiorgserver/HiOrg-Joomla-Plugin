@@ -10,7 +10,7 @@
 	</license>
 	<authorEmail>info@joomla.digital-peak.com</authorEmail>
 	<authorUrl>joomla.digital-peak.com</authorUrl>
-	<version>2.2.1</version>
+	<version>2.2.2</version>
 	<description>Plugin für den DPCalendar um Termin-Daten aus dem HiOrg-Server zu importieren</description>
 	<scriptfile>init_script.php</scriptfile>
 	<files>
