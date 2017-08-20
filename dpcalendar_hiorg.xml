@@ -2,7 +2,7 @@
 <extension version="3.0" type="plugin" group="dpcalendar" method="upgrade">
 	<name>DPCalendar - HiOrg</name>
 	<author>HiOrg-Server GmbH</author>
-	<creationDate>March 2015</creationDate>
+	<creationDate>August 2017</creationDate>
 	<copyright>(C) 2012 Digital Peak. All rights reserved.
 	</copyright>
 	<license>http://www.gnu.org/copyleft/gpl.html
