@@ -34,7 +34,7 @@ class plgDPCalendarDPCalendar_Hiorg extends DPCalendar\Plugin\DPCalendarPlugin {
     }
         
         
-    protected function getContent($calendarId, JDate $startDate, JDate $endDate, Joomla\Registry\Registry $options) {
+    protected function getContent($calendarId, JDate $startDate = null, JDate $endDate = null, Joomla\Registry\Registry $options) {
         $uri = $this->hiorg_url."&ov=".$this->params->get('ov-1', null);
         $content = DPCalendarHelper::fetchContent(str_replace('webcal://', 'https://', $uri));
         $content = str_replace("BEGIN:VCALENDAR\r\n", '', $content);
