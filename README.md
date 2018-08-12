@@ -13,6 +13,10 @@ https://github.com/hiorgserver/HiOrg-Joomla
 finden Sie auch eine eigenständige Joomla!-Komponente, welche auch OHNE 
 DPCalendar Termine aus HiOrg-Server abrufen, und in einer Joomla!-Webseite anzeigen kann.
 
+Bitte beachten Sie, dass Sie das Plugin nach der Installation in Joomla aktivieren müssen.
+
+Nach der Aktivierung können Sie Ortsvereinkürzel hinzufügen. Anschließend stehen ihnen diese als Kalender zur Verfügung und können entsprechend integriert werden.
+
 ----
 
 Die aktuellste Version dieses Projekts finden Sie immer unter:  
