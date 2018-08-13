@@ -3,8 +3,8 @@
 <form>
 	<fields name="params">
 		<fieldset name="params">
-			<field name="uri" type="text" label="OV Kürzel"
-				required="true" description="Tragen Sie hier das Kürzel ihrer Organisation im HiOrg Server ein."
+			<field name="uri" type="text" label="Org.-Kürzel"
+				required="true" description="Tragen Sie hier das Kürzel Ihrer Organisation beim HiOrg-Server ein."
 				size="70" class="inputbox" default="" filter="raw"/>
 			<field name="action-create" type="hidden" default="false" />
 			<field name="action-edit" type="hidden" default="false" />

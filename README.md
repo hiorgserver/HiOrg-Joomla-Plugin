@@ -1,8 +1,7 @@
 HiOrg-Joomla-Plugin
 ===================
 
-Integration von Terminen aus dem HiOrg-Server in eine Joomla!-Website  
-https://www.hiorg-server.de
+Integration von Terminen aus dem [HiOrg-Server](https://www.hiorg-server.de) in eine Joomla!-Website
 
 Achtung: Dieses Paket beinhaltet NUR ein Plugin für DPCalendar:
 Stellt eine Import-Schnittstelle zur Verfügung, so dass die Termine aus dem
@@ -15,7 +14,7 @@ DPCalendar Termine aus HiOrg-Server abrufen, und in einer Joomla!-Webseite anzei
 
 Bitte beachten Sie, dass Sie das Plugin nach der Installation in Joomla aktivieren müssen.
 
-Nach der Aktivierung können Sie Ortsvereinkürzel hinzufügen. Anschließend stehen ihnen diese als Kalender zur Verfügung und können entsprechend integriert werden.
+Nach der Aktivierung können Sie Organisationskürzel hinzufügen. Anschließend stehen Ihnen diese als Kalender zur Verfügung und können entsprechend integriert werden.
 
 ----
 

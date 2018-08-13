@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <extension version="3.7" type="plugin" group="dpcalendar" method="upgrade">
 	<name>plg_dpcalendar_hiorg</name>
-	<author>HiOrg-Server GmbH</author>
+	<author>HiOrg Server GmbH</author>
 	<creationDate>Jul 2018</creationDate>
-	<copyright>(C) 2007 - 2018 Digital Peak. All rights reserved.</copyright>
+	<copyright>(c) HiOrg Server GmbH / Digital Peak</copyright>
 	<license>http://www.gnu.org/copyleft/gpl.htmlGNU/GPL</license>
-	<authorEmail>info@digital-peak.com</authorEmail>
-	<authorUrl>joomla.digital-peak.com</authorUrl>
-	<version>2.3</version>
+	<authorEmail>support@hiorg-server.de</authorEmail>
+	<authorUrl>www.hiorg-server.de</authorUrl>
+	<version>2.4</version>
 	<description>PLG_DPCALENDAR_HIORG_XML_DESCRIPTION</description>
 	<files>
 		<filename plugin="hiorg">hiorg.php</filename>
