@@ -15,23 +15,20 @@
 		<folder>language</folder>
 	</files>
 	<config>
-		<fields name="params"
-		        addfieldpath="/administrator/components/com_dpcalendar/models/fields">
+		<fields name="params" addfieldpath="/administrator/components/com_dpcalendar/models/fields">
 			<fieldset name="basic">
 				<field
 					name="ext"
 					type="extcalendar"
 					plugin="hiorg"
-					label=""
-					description=""
 				/>
 			</fieldset>
 			<fieldset name="advanced">
 				<field 
-					ame="cache"
+					name="cache"
 					type="list"
 					default="0"
-				       label="PLG_DPCALENDAR_HIORG_FIELD_CACHING_LABEL"
+					label="PLG_DPCALENDAR_HIORG_FIELD_CACHING_LABEL"
 					description="PLG_DPCALENDAR_HIORG_FIELD_CACHING_DESC"
 				>
 					<option value="1">PLG_DPCALENDAR_HIORG_FIELD_CACHING_JOOMLA</option>
@@ -43,32 +40,32 @@
 					type="text"
 					default="900"
 					showon="cache:1"
-				       label="PLG_DPCALENDAR_HIORG_FIELD_CACHING_TIME_LABEL"
-				       description="PLG_DPCALENDAR_HIORG_FIELD_CACHING_TIME_DESC"
+					label="PLG_DPCALENDAR_HIORG_FIELD_CACHING_TIME_LABEL"
+					description="PLG_DPCALENDAR_HIORG_FIELD_CACHING_TIME_DESC"
 				/>
 				<field
 					name="sync_start"
 					type="text"
 					default="-3 year"
 					showon="cache:2"
-				       label="PLG_DPCALENDAR_HIORG_FIELD_CACHING_SYNC_START_LABEL"
-				       description="PLG_DPCALENDAR_HIORG_FIELD_CACHING_SYNC_START_DESC"
+					label="PLG_DPCALENDAR_HIORG_FIELD_CACHING_SYNC_START_LABEL"
+					description="PLG_DPCALENDAR_HIORG_FIELD_CACHING_SYNC_START_DESC"
 				/>
 				<field
 					name="sync_end"
 					type="text"
 					default="+3 year"
 					showon="cache:2"
-				       label="PLG_DPCALENDAR_HIORG_FIELD_CACHING_SYNC_END_LABEL"
-				       description="PLG_DPCALENDAR_HIORG_FIELD_CACHING_SYNC_END_DESC"
+					label="PLG_DPCALENDAR_HIORG_FIELD_CACHING_SYNC_END_LABEL"
+					description="PLG_DPCALENDAR_HIORG_FIELD_CACHING_SYNC_END_DESC"
 				/>
 				<field
 					name="sync_steps"
 					type="text"
 					default="1 year"
 					showon="cache:2"
-				       label="PLG_DPCALENDAR_HIORG_FIELD_CACHING_SYNC_STEPS_LABEL"
-				       description="PLG_DPCALENDAR_HIORG_FIELD_CACHING_SYNC_STEPS_DESC"
+					label="PLG_DPCALENDAR_HIORG_FIELD_CACHING_SYNC_STEPS_LABEL"
+					description="PLG_DPCALENDAR_HIORG_FIELD_CACHING_SYNC_STEPS_DESC"
 				/>
 			</fieldset>
 		</fields>
