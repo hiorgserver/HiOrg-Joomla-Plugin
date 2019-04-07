@@ -7,7 +7,7 @@
 	<license>http://www.gnu.org/copyleft/gpl.html GNU/GPL</license>
 	<authorEmail>support@hiorg-server.de</authorEmail>
 	<authorUrl>www.hiorg-server.de</authorUrl>
-	<version>2.4.0</version>
+	<version>2.4.1</version>
 	<description>PLG_DPCALENDAR_HIORG_XML_DESCRIPTION</description>
 	<files>
 		<filename plugin="hiorg">hiorg.php</filename>
@@ -71,6 +71,6 @@
 		</fields>
 	</config>
 	<updateservers>
-		<server type="extension" name="HttpHeader Update Site">https://raw.githubusercontent.com/hiorgserver/HiOrg-Joomla-Plugin/master/update.xml</server>
+		<server type="extension" name="Updates: DPCalendar - HiOrg-Server - Plugin">https://raw.githubusercontent.com/hiorgserver/HiOrg-Joomla-Plugin/master/update.xml</server>
 	</updateservers>
 </extension>
