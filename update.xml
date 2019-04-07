@@ -1,0 +1,20 @@
+<?xml version="1.0" ?>
+<updates>
+	<update>
+		<name>DPCalendar - HiOrg-Server</name>
+		<description>DPCalendar - HiOrg-Server</description>
+		<element>hiorg</element>
+		<type>plugin</type>
+		<folder>dpcalendar</folder>
+		<client>site</client>
+		<version>2.4.1</version>
+		<infourl title="DPCalendar - HiOrg-Server">https://github.com/hiorgserver/HiOrg-Joomla-Plugin</infourl>
+		<downloads>
+			<downloadurl type="full" format="zip">https://github.com/hiorgserver/HiOrg-Joomla-Plugin/archive/master.zip</downloadurl>
+		</downloads>
+		<tags>
+			<tag>stable</tag>
+		</tags>
+		<targetplatform name="joomla" version="3.*"/>
+	</update>
+</updates>
