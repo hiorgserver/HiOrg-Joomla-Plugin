@@ -104,7 +104,7 @@ class PlgDPCalendarHiorg extends \DPCalendar\Plugin\SyncPlugin
 			return '';
 		}
 
-		if (function_exists('DPCalendarHelper::fetchContent')) {
+		if (method_exists('DPCalendarHelper', 'fetchContent')) {
             $content = \DPCalendarHelper::fetchContent($this->getIcalUrl($calendar));
         } else {
             $content = $this->fetchContent($this->getIcalUrl($calendar));
