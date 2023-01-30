@@ -1,6 +1,14 @@
 HiOrg-Joomla-Plugin
 ===================
 
+## :warning: OUTDATED :warning:
+
+### Insgesamt verzeichnen wir eine sehr geringe Nutzung und Nachfrage dieses Plugins, daher wird es von der HiOrg Server GmbH derzeit nicht aktiv weiter entwickelt
+
+Community-Development und insbesondere Pull-Requests werden trotzdem gerne gesehen.
+
+-----
+
 Integration von Terminen aus dem [HiOrg-Server](https://www.hiorg-server.de) in eine Joomla!-Website
 
 Achtung: Dieses Paket beinhaltet NUR ein Plugin für DPCalendar:
